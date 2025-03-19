@@ -1,0 +1,46 @@
+# WEEK TWO ASSIGNMENT
+
+
+
+my_list=["5","12","25","16","35"]
+
+my_list.append("10")
+
+my_list.append("20")
+
+my_list.append("30")
+
+my_list.append("40")
+
+print(my_list)          # output ["5","12","25","16","35", '10', '20', '30', '40']
+
+
+
+my_list.insert(1,"15")
+
+print(my_list)          # ['5', '15', '12', '25', '16', '35', '10', '20', '30', '40']
+
+
+
+
+
+newlist=["50","60","70"]
+
+my_list.extend(newlist)
+
+print(my_list)          # ['5', '15', '12', '25', '16', '35', '10', '20', '30', '40', '50', '60', '70']
+
+
+
+my_list.sort()
+
+print(my_list)          # ['5', '15', '12', '25', '16', '35', '10', '20', '30', '40', '50', '60', '70']
+
+
+
+
+
+print(my_list[6])       # 30
+
+
+
